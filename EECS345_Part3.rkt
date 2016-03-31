@@ -8,7 +8,6 @@
     (call/cc
      (lambda (return)
        (executeMain (initialState (parser filename) '(()()) (list (parser filename)) '()) return)))))
-       ;(M_state (parser filename) (cons (parser filename) '()) (initialState (parser filename) '(()())) return return return '())))))
 
 ;interprets the function inside its function environment
 (define interpretFunc
