@@ -2,4 +2,4 @@
 
 Interpreter for a Java/C-like language written in Scheme for EECS 345: Programming Language Concepts taught by Professor Harold Connamacher at Case Western Reserve University.  Function parser and lexical analyzer was provided by Professor Connamacher.
 
-Project was done with classmates Faraz Ahmed and Andrew Hwang.  Currently finished with parts 3/5 that interprets delarations, assignments, mathematical operations, while and for loops, if/else statements, and functions.  
+Project was done with classmates Faraz Ahmed and Andrew Hwang.  Currently finished with parts 4/4 that interprets classes (no constructor), main function, methods, new, dot operator (only one in a row, i.e. x.getNext(), but not x.getNext().getNext()), delarations, assignments, mathematical operations, while and for loops, if/else statements.  
